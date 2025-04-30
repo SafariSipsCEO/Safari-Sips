@@ -117,25 +117,19 @@ nav .fa-solid {
     display: none;
 }
 
-@media(max-width: 700px) {
-    .text-box h1 {
-        font-size: 20px;
-    
-    }
-    .nav-links ul li {
-        display: block;
-    }
-
-    .hidden {
-        display: none;
-      }
-    }
       @media screen and (orientation: landscape) {
         h1 {
           font-size: 3rem;
           color: #f44336;
           text-align: center;
         }
+        .nav-links ul li {
+            display: block;
+        }
+    
+        .hidden {
+            display: none;
+          }
       }
       
     .nav-links {
