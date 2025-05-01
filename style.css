@@ -29,7 +29,7 @@ nav {
 }
 
 nav img {
-    width: 200px;
+    width: 150px;
 }
 
 .nav-links {
@@ -135,6 +135,14 @@ nav img {
     z-index: 2;
     transition: right 0.3s ease;
     text-align: left;
+      }
+
+      nav img {
+        width: 100px;
+      }
+
+      .text-box {
+        padding-top: 20px;
       }
     }
     
