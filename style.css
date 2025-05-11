@@ -56,7 +56,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: #030c4f;
+    background: #532703;
     display: block;
     margin: auto;
     transition: 1s;
@@ -99,7 +99,7 @@ nav img {
     border: 1px solid #ffffff;
     padding: 12px 34px;
     font-size: 13px;
-    background: #29304c;
+    background: #541b04;
     position: relative;
     cursor: pointer;
     
@@ -107,7 +107,7 @@ nav img {
 
 .coffee-beans:hover {
     border: 1px solid #c42f14;
-    background: linear-gradient(270deg,#160739, #3b3c57);
+    background: linear-gradient(270deg,#972708, #421403);
     transition: 1s;
 }
 
@@ -133,18 +133,20 @@ nav .fa-solid {
         font-size: .6rem;
         margin: 20px;
         padding-top: 20px;
+        
     }
    
     .nav-links {
         display: none; /* 🔧 Add this */
         position: absolute;
-        background: linear-gradient(270deg,#3a36696f,#271643);
+        background: linear-gradient(270deg,#9d1604,#2f1201);
         height: 100vh;
         width: 200px;
         top: 0;
         right: 0;
         text-align: left;
         z-index: 2;
+        
       }
       
 
@@ -237,7 +239,7 @@ strong {
 
 .coffee-col {
     flex-basis: 31%;
-    background: #9d9bae6f;
+    background: #844b2f3e;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -247,7 +249,7 @@ strong {
 }
 
 .coffee-col:hover {
-box-shadow: 0 0 20px 0px rgb(237, 98, 11);
+box-shadow: 0 0 20px 0px rgb(174, 70, 4);
 transform: scale(1.1);
 
 }
@@ -261,7 +263,7 @@ transform: scale(1.1);
             width: 100%;
             overflow: hidden;
             text-align: center;
-            background: linear-gradient(#7c6767, #333);
+            background: linear-gradient(#bb5d1f, #4e2503);
            
           }
           
@@ -326,33 +328,33 @@ transform: scale(1.1);
   
 
 .contact-container{
-    max-width: 400px;
+    max-width: 700px;
     width: 100%;
     margin: 0 auto;
-    background: linear-gradient(#736792, #2b2243);
+    background: linear-gradient(#ac6c14, #3b1601);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px #333(77, 1, 1);
+    box-shadow: 0 4px 8px #e42828(77, 1, 1);
    
     
   }
   .contact-container label {
     font-size: 16px;
-    margin-bottom: 8px;
+    margin-bottom: 1.5rem;
     display: flex;
     
   }
   .contact-container input, .contact-container textarea {
-    width: 98%;
+    width: 100%;
     padding: 8px;
     margin-bottom: 16px;
-    border: 1px solid #f1bbbb;
+    border: 1px solid #bb5406;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 1.25rem;
   }
   .contact-container button {
-    background: linear-gradient(270deg,#454a94, #120646);
-    color: rgb(5, 8, 43);
+    background: linear-gradient(270deg,#bd8132, #945a02);
+    color: rgb(48, 27, 1);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -361,8 +363,8 @@ transform: scale(1.1);
     width: 100%;
   }
   .contact-container button:hover {
-    box-shadow: 0 0 20px 0px rgba(60, 46, 113, 0.253);
-    background: #225869;
+    box-shadow: 0 0 20px 0px rgba(192, 79, 4, 0.253);
+    background: #874006;
   }
   .home-content {
     transform: translateX(200px);
