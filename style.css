@@ -96,7 +96,7 @@ nav img {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     padding: 12px 34px;
     font-size: 13px;
     background: #29304c;
@@ -106,7 +106,7 @@ nav img {
 }
 
 .coffee-beans:hover {
-    border: 1px solid #5636f4;
+    border: 1px solid #c42f14;
     background: linear-gradient(270deg,#160739, #3b3c57);
     transition: 1s;
 }
@@ -120,7 +120,7 @@ nav .fa-solid {
     
 }
 
-@media(max-width: 700px) {
+@media(max-width: 400px) {
     .text-box h1 {
         font-size: 1.5rem;
     }
@@ -138,7 +138,7 @@ nav .fa-solid {
     .nav-links {
         display: none; /* 🔧 Add this */
         position: absolute;
-        background: linear-gradient(270deg,#3a3669,#090239);
+        background: linear-gradient(270deg,#3a36696f,#271643);
         height: 100vh;
         width: 200px;
         top: 0;
@@ -247,7 +247,7 @@ strong {
 }
 
 .coffee-col:hover {
-box-shadow: 0 0 20px 0px rgb(154, 132, 227);
+box-shadow: 0 0 20px 0px rgb(237, 98, 11);
 transform: scale(1.1);
 
 }
