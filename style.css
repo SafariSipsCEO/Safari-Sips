@@ -421,5 +421,5 @@ transform: scale(1.1);
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 100;
+    z-index: 1000;
         }
