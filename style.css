@@ -417,3 +417,9 @@ transform: scale(1.1);
     text-decoration: underline;
   }
   
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index:
+        }
