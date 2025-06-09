@@ -423,3 +423,9 @@ transform: scale(1.1);
     right: 20px;
     z-index: 1000;
         }
+
+.whatsapp-float img {
+    width: 70px;
+    height: 70px;
+}
+
